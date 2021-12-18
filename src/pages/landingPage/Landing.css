@@ -157,7 +157,7 @@
   }
 
     @media screen and (max-width: 576px){
-        .hero-title{
+        /* .hero-title{
             font-size:40px;
             margin-bottom:0px;
             margin-top:50px; 
@@ -170,17 +170,24 @@
         .hero-button{
             font-size: 20px;
             padding: 0.5rem 1rem;
+        } */
+        /* .hero-rocket{
+            display: none;
         }
+
+        .hero-akhil{
+            display: none;
+        } */
 
 
         .hero-rocket > img{
             width:35%;
-            top: 100px;
+            top: -100px;
         }
 
         .hero-akhil >img{
             width:25%;
-            top: 100px;
+            top: -100px;
         }
         .hero-scroll > button{
             bottom: -50px;
@@ -192,13 +199,13 @@
 
     @media screen and (max-width: 360px){
         .hero-rocket > img{
-            width:35%;
-            top: 160px;
+            width:55%;
+            top: -100px;
         }
 
         .hero-akhil >img{
-            width:25%;
-            top: 160px;
+            width:45%;
+            top: -100px;
             left:-10px
         }
     }
