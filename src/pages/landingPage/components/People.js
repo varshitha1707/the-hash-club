@@ -22,6 +22,7 @@ import orangebg from '../../../assets/peoplebg/orangebg.jpg';
 import instagram from '../../../assets/socials/Instagram.png'
 import linkedin from '../../../assets/socials/LinkedIn.png'
 import twitter from '../../../assets/socials/Twitter.png'
+import CloseIcon from '@mui/icons-material/Close';
 
 
 
@@ -80,7 +81,7 @@ export default function People() {
         {
             id:5,
             name:'Varshitha',
-            role: 'Frontend Developer',
+            role: 'Full Stack Developer',
             img:vari,
             imgFor: variFor,
             bg:bluebg,
@@ -96,6 +97,7 @@ export default function People() {
         // left: '50%',
         // transform: 'translate(-50%, -50%)',
         width: '50%',
+        scroll: 'auto',
 
         alignContent: 'center',
         justifyContent: 'center',
@@ -186,7 +188,13 @@ export default function People() {
         aria-describedby="parent-modal-description"
         >
             <Box sx={{ ...styles }}>
-                <Typography variant="h6" style={styles.Typography}>{people[activeCard].name}</Typography>
+                <div style={{display:"flex", alignItems:"center",justifyContent:'space-between', flexWrap:"wrap" }} >
+                    <p onClick={handleClose} variant="h5" style={{textAlign:"start", cursor:"pointer"}}>
+                        <CloseIcon style={{color:"#000"}}/>
+                    </p>
+                    <Typography variant="h6" style={styles.Typography}>{people[activeCard].name}</Typography>
+                </div>
+                
                 <div style={{display:"flex", alignItems:"center",justifyContent:'space-evenly', flexWrap:"wrap" }}>
                     <div style={{display:"block",alignItems:"center", justifyContent:"center"}}>
                         <div>
