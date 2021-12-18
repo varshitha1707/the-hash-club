@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/the-hash-club/static/css/main.ac03edf6.css",
-    "main.js": "/the-hash-club/static/js/main.04e8a6df.js",
+    "main.css": "/the-hash-club/static/css/main.4ffe1328.css",
+    "main.js": "/the-hash-club/static/js/main.3d7e3eac.js",
     "static/js/787.b71c1b58.chunk.js": "/the-hash-club/static/js/787.b71c1b58.chunk.js",
     "static/media/darkbluebg.jpg": "/the-hash-club/static/media/darkbluebg.11523a022ffa86aee910.jpg",
     "static/media/orangebg.jpg": "/the-hash-club/static/media/orangebg.7ee34d9eb411986b5f67.jpg",
@@ -25,12 +25,12 @@
     "static/media/hashclub.gif": "/the-hash-club/static/media/hashclub.55e3b91046c27df8b596.gif",
     "static/media/logo.svg": "/the-hash-club/static/media/logo.3be3135a79f925789144d51fdb4fc8bf.svg",
     "index.html": "/the-hash-club/index.html",
-    "main.ac03edf6.css.map": "/the-hash-club/static/css/main.ac03edf6.css.map",
-    "main.04e8a6df.js.map": "/the-hash-club/static/js/main.04e8a6df.js.map",
+    "main.4ffe1328.css.map": "/the-hash-club/static/css/main.4ffe1328.css.map",
+    "main.3d7e3eac.js.map": "/the-hash-club/static/js/main.3d7e3eac.js.map",
     "787.b71c1b58.chunk.js.map": "/the-hash-club/static/js/787.b71c1b58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac03edf6.css",
-    "static/js/main.04e8a6df.js"
+    "static/css/main.4ffe1328.css",
+    "static/js/main.3d7e3eac.js"
   ]
 }
