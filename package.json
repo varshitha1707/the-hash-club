@@ -2,7 +2,7 @@
   "name": "hash-club",
   "homepage": "http://varshitha1707.github.io/the-hash-club/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
